@@ -9,6 +9,8 @@ V0.4
 * [DockerToolbox](https://drive.google.com/file/d/1ebWirBtiEBDf7JVL4utbmAH9ktqH0j8y/view?usp=sharing)
 * [Git](https://git-scm.com)
 
+Antes de configurar el software tenemos que localizar 
+
 ### Configuration
 * Descargar la configuracion del instalador del software en docker.
 ```sh
@@ -23,6 +25,16 @@ $ cd system
 * Descargar el codigo fuente del software preparado para la dockerizacion con el renombrar a la carpeta ``app``
 ```sh
 $ git clone https://github.com/evervasquez/hrsystem.git app
+```
+
+```
+tui-editor/
+├─ latest/
+│  ├─ tui-editor-Editor.js
+│  ├─ tui-editor-Editor.min.js
+│  └─ ...
+├─ v1.1.0/
+│  ├─ ...
 ```
 
 ### Installation
