@@ -10,7 +10,7 @@ V0.4
 * [Git](https://git-scm.com)
 
 ### Installation
-Descargar la configuracion del instalador del software
+Descargar la configuracion del instalador del software en docker
 ```sh
 $ git clone https://github.com/evervasquez/hrsystem_installer.git system
 ```
@@ -20,7 +20,7 @@ Nos movemos a la carpeta con el comando ```cd```
 $ cd system
 ```
 
-Descargar el codigo fuente del software preparado para la dockerizacion con el nombre de la carpeta ``app``
+Descargar el codigo fuente del software preparado para la dockerizacion con el renombrar a la carpeta ``app``
 
 ```sh
 $ git clone https://github.com/evervasquez/hrsystem.git app
