@@ -27,9 +27,10 @@ $ cd system
 $ git clone https://github.com/evervasquez/hrsystem.git app
 ```
 
+* Configuracion  final
 ```
-tui-editor/
-├─ latest/
+system/
+├─ app/
 │  ├─ tui-editor-Editor.js
 │  ├─ tui-editor-Editor.min.js
 │  └─ ...
