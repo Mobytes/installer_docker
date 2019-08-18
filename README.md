@@ -36,10 +36,11 @@ system/
 ├─ .env
 ├─ README.md
 ├─ docker-compose.yml
+├─ docker-compose.yml
 └─ production.yml
 ├─ nginx/
 │  ├─ Dockerfile
-└─ ├─ nginx.conf
+└─ └─ production.yml
 ```
 
 ### Installation
