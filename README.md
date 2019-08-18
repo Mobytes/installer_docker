@@ -20,7 +20,7 @@ Nos movemos a la carpeta con el comando ```cd```
 $ cd system
 ```
 
-Descargar el codigo fuente del software preparado para la dockerizacion
+Descargar el codigo fuente del software preparado para la dockerizacion con el nombre de la carpeta ``app``
 
 ```sh
 $ git clone https://github.com/evervasquez/hrsystem.git app
