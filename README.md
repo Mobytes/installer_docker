@@ -9,7 +9,7 @@ V0.4
 * [DockerToolbox](https://drive.google.com/file/d/1ebWirBtiEBDf7JVL4utbmAH9ktqH0j8y/view?usp=sharing)
 * [Git](https://git-scm.com)
 
-### Installation
+### Configuration
 Descargar la configuracion del instalador del software en docker
 ```sh
 $ git clone https://github.com/evervasquez/hrsystem_installer.git system
@@ -26,7 +26,7 @@ Descargar el codigo fuente del software preparado para la dockerizacion con el r
 $ git clone https://github.com/evervasquez/hrsystem.git app
 ```
 
-### Docker
+### Installation
 Todos los comandos de docker tienen que ser lanzados dentro de la carpeta del proyecto de `docker`
 
 ### Situarnos en la carpeta system/
