@@ -7,14 +7,22 @@ V0.4
 ### Technologies
 
 * [DockerToolbox](https://drive.google.com/file/d/1ebWirBtiEBDf7JVL4utbmAH9ktqH0j8y/view?usp=sharing)
+* [Git](https://git-scm.com)
 
 ### Installation
-
-You need Gulp installed globally:
+Descargar la configuracion del instalador del software
+```sh
+$ git clone https://github.com/evervasquez/hrsystem_installer.git system
+```
+Nos movemos a la carpeta con el comando ```cd```
 
 ```sh
-$ mkdir sistravent && cd sistravent
-$ git clone git@gitlab.com:pever/sistravent.com.git sistravent
+$ cd system
+```
+
+```sh
+$ git clone https://github.com/evervasquez/hrsystem_installer.git system
+$ git clone [project github] app
 $ virtualenv -p python3.4 virtual
 $ source virtual/bin/activate
 $ (virtual) cd sistravent
