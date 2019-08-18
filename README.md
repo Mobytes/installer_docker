@@ -30,17 +30,17 @@ $ git clone https://github.com/evervasquez/hrsystem.git app
 * Configuracion  final
 ```
 system/
-├─ app/
-│  ├─ Dockerfile
-│  ├─ nginx.conf
-├─ .env
+├─ docker-compose.yml
+├─ production.yml
 ├─ README.md
-├─ docker-compose.yml
-├─ docker-compose.yml
-└─ production.yml
+├─ .env
 ├─ nginx/
 │  ├─ Dockerfile
-└─ └─ production.yml
+│  └─ nginx.conf
+├─ app/
+│  ├─ tui-editor-Editor.js
+│  ├─ tui-editor-Editor.min.js
+│  └─ ...
 ```
 
 ### Installation
