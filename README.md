@@ -6,9 +6,7 @@ V0.4
 
 ### Technologies
 
-Dillinger uses a number of open source projects to work properly:
-
-* [a link](https://github.com/user/repo/blob/branch/other_file.md)
+* [DockerToolbox](https://drive.google.com/file/d/1ebWirBtiEBDf7JVL4utbmAH9ktqH0j8y/view?usp=sharing)
 
 ### Installation
 
