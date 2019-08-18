@@ -1,4 +1,4 @@
-## INSTALLER DOCKER
+## INSTALLER DOCKER WINDOWS
 Instalador de docker.
 
 ### Version
