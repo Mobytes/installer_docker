@@ -8,7 +8,7 @@ V0.4
 
 Dillinger uses a number of open source projects to work properly:
 
-* [Django1.9] - Django hace que sea más fácil de construir mejores aplicaciones web más rápido y con menos código.
+* [a link](https://github.com/user/repo/blob/branch/other_file.md)
 
 ### Installation
 
