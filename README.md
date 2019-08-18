@@ -38,8 +38,10 @@ system/
 │  ├─ Dockerfile
 │  └─ nginx.conf
 ├─ app/
-│  ├─ tui-editor-Editor.js
-│  ├─ tui-editor-Editor.min.js
+│  ├─ hrsystem/
+│  ├─ Dockerfile
+│  ├─ Gulpfile.js
+│  ├─ package.json
 │  └─ ...
 ```
 
