@@ -1,5 +1,5 @@
 ## INSTALLER DOCKER WINDOWS
-Instalador de docker.
+Este manual es para poder instalar el software de hrsystem con docker en windows.
 
 ### Version
 V0.4
