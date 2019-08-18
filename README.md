@@ -31,11 +31,15 @@ $ git clone https://github.com/evervasquez/hrsystem.git app
 ```
 system/
 ├─ app/
-│  ├─ tui-editor-Editor.js
-│  ├─ tui-editor-Editor.min.js
-│  └─ ...
-├─ v1.1.0/
-│  ├─ ...
+│  ├─ Dockerfile
+│  ├─ nginx.conf
+├─ .env
+├─ README.md
+├─ docker-compose.yml
+└─ production.yml
+├─ nginx/
+│  ├─ Dockerfile
+└─ ├─ nginx.conf
 ```
 
 ### Installation
