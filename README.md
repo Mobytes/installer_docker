@@ -27,7 +27,7 @@ $ git clone https://github.com/evervasquez/hrsystem.git app
 ```
 
 ### Docker
-Para comenzar a correr docker para que haga su trabajo
+Todos los comandos de docker tienen que ser lanzados dentro de la carpeta del proyecto de `docker`
 
 ### Situarnos en la carpeta system/
 ```sh
@@ -42,4 +42,13 @@ $ docker-compose build
 ### Inciamos los servicios
 ```sh
 $ docker-compose up -d
+```
+
+
+## Comandos adicionales
+
+
+### Reniciar servicios de docker
+```sh
+$ docker-compose up -d --no-deps --build </service>
 ```
