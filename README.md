@@ -1,23 +1,23 @@
-## INSTALLER DOCKER WINDOWS
+## INSTALADOR DOCKER WINDOWS
 Este manual es para poder instalar el software de hrsystem con docker en windows.
 
 ### Version
 V0.4
 
-### Technologies
+### Tecnologias
 
 * [DockerToolbox](https://drive.google.com/file/d/1ebWirBtiEBDf7JVL4utbmAH9ktqH0j8y/view?usp=sharing)
 * [Git](https://git-scm.com)
 
 Antes de configurar el software tenemos que localizar 
 
-### Configuration
+### Configuracion
 * Descargar la configuracion del instalador del software en docker.
 ```sh
 $ git clone https://github.com/evervasquez/hrsystem_installer.git system
 ```
 
-* Nos movemos a la carpeta con el comando ```cd```
+* Nos movemos a la carpeta con el comando `cd`
 ```sh
 $ cd system
 ```
@@ -45,7 +45,7 @@ system/
 │  └─ ...
 ```
 
-### Installation
+### Instalacion
 Todos los comandos de docker tienen que ser lanzados dentro de la carpeta del proyecto de `docker`
 
 ### Situarnos en la carpeta system/
@@ -63,26 +63,23 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
-
 ## Comandos adicionales
 
-
-### Reniciar servicios de docker
+* Reniciar servicios de docker
 ```sh
 $ docker-compose up -d --no-deps --build </service>
 ```
 
-### Listar servicios de docker
+* Listar servicios de docker
 ```sh
 $ docker ps
 ```
 
-### Entrar en el contenedor
+* Entrar en el contenedor
 ```sh
 $ docker exec -i -t [name-container] /bin/bash
 ```
 
-### Clear project docker
 * Eliminar todos los contenedores detenidos, 
 ```sh
 $ docker system prune
