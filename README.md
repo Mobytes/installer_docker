@@ -71,3 +71,13 @@ $ docker-compose up -d
 ```sh
 $ docker-compose up -d --no-deps --build </service>
 ```
+
+### Listar servicios de docker
+```sh
+$ docker ps
+```
+
+### Entrar en el contenedor
+```sh
+$ docker exec -i -t [name-container] /bin/bash
+```
