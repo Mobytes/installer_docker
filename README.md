@@ -63,10 +63,8 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
-### Llenar 
-```sh
-$ docker-compose up -d
-```
+### Ingresar data inicial 
+La data inicial esta en el archivo `hrsystem/sql/init.sql` 
 
 ## Comandos adicionales
 * Listar servicios de docker
