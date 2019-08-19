@@ -64,15 +64,14 @@ $ docker-compose up -d
 ```
 
 ## Comandos adicionales
+* Listar servicios de docker
+```sh
+$ docker ps
+```
 
 * Reniciar servicios de docker
 ```sh
 $ docker-compose up -d --no-deps --build </service>
-```
-
-* Listar servicios de docker
-```sh
-$ docker ps
 ```
 
 * Entrar en el contenedor
