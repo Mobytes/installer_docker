@@ -63,6 +63,11 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
+### Llenar 
+```sh
+$ docker-compose up -d
+```
+
 ## Comandos adicionales
 * Listar servicios de docker
 ```sh
