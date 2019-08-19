@@ -81,3 +81,20 @@ $ docker ps
 ```sh
 $ docker exec -i -t [name-container] /bin/bash
 ```
+
+### Clear project docker
+* Eliminar todos los contenedores detenidos, 
+```sh
+$ docker system prune
+```
+
+* Eliminar volumenes detenidos.
+```sh
+$ docker system prune --volumes
+```
+
+* Remove one or more containers
+```sh
+$ docker container ls -a
+$ docker container rm cc3f2ff51cab cd20b396a061
+```
